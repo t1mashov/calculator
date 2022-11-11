@@ -1,0 +1,68 @@
+
+body {
+    font-family: arial;
+    background: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613542538_60-p-fon-dlya-prezentatsii-po-informatike-power-65.jpg');
+}
+
+.key {
+    font-size: 25px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.digits button {
+    font-family: arial;
+    background-color: #aaaaaa;
+    box-shadow: 0px 0px 10px #ffffff inset;
+}
+.digits button:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 10px #a8a8a8 inset;
+}
+
+.other button {
+    background-color: #ff7b00;
+    font-family: arial;
+    box-shadow: 0px 0px 10px #ffb46d inset;
+}
+.other button:hover {
+    background-color: #ffaa5a;
+    box-shadow: 0px 0px 10px #ff7b00 inset;
+}
+
+.buttons {
+    display: flex;
+}
+
+.digits {
+    width: 180px;
+    flex: 1;
+}
+
+.other {
+    width: 125px;
+}
+
+.screen {
+    padding: 10px;
+    background-color: #e2e2e2;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: end;
+    margin: 5px;
+}
+
+main {
+    width: 330px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 4px 4px 6px rgb(30, 30, 30);
+}
